@@ -1,0 +1,13 @@
+C:\Users\1ds\Desktop\AtividadeCondicional\AtividadeConf\AtividadeConf\obj\Debug\AtividadeConf.csproj.AssemblyReference.cache
+C:\Users\1ds\Desktop\AtividadeCondicional\AtividadeConf\AtividadeConf\obj\Debug\AtividadeConf.Form1.resources
+C:\Users\1ds\Desktop\AtividadeCondicional\AtividadeConf\AtividadeConf\obj\Debug\AtividadeConf.FrmMenu.resources
+C:\Users\1ds\Desktop\AtividadeCondicional\AtividadeConf\AtividadeConf\obj\Debug\AtividadeConf.Form3.resources
+C:\Users\1ds\Desktop\AtividadeCondicional\AtividadeConf\AtividadeConf\obj\Debug\AtividadeConf.FrmBiblioteca.resources
+C:\Users\1ds\Desktop\AtividadeCondicional\AtividadeConf\AtividadeConf\obj\Debug\AtividadeConf.Properties.Resources.resources
+C:\Users\1ds\Desktop\AtividadeCondicional\AtividadeConf\AtividadeConf\obj\Debug\AtividadeConf.csproj.GenerateResource.cache
+C:\Users\1ds\Desktop\AtividadeCondicional\AtividadeConf\AtividadeConf\obj\Debug\AtividadeConf.csproj.CoreCompileInputs.cache
+C:\Users\1ds\Desktop\AtividadeCondicional\AtividadeConf\AtividadeConf\bin\Debug\AtividadeConf.exe.config
+C:\Users\1ds\Desktop\AtividadeCondicional\AtividadeConf\AtividadeConf\bin\Debug\AtividadeConf.exe
+C:\Users\1ds\Desktop\AtividadeCondicional\AtividadeConf\AtividadeConf\bin\Debug\AtividadeConf.pdb
+C:\Users\1ds\Desktop\AtividadeCondicional\AtividadeConf\AtividadeConf\obj\Debug\AtividadeConf.exe
+C:\Users\1ds\Desktop\AtividadeCondicional\AtividadeConf\AtividadeConf\obj\Debug\AtividadeConf.pdb
