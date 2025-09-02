@@ -100,7 +100,7 @@
             // txtlivros
             // 
             this.txtlivros.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.25F);
-            this.txtlivros.Location = new System.Drawing.Point(514, 80);
+            this.txtlivros.Location = new System.Drawing.Point(514, 81);
             this.txtlivros.Name = "txtlivros";
             this.txtlivros.Size = new System.Drawing.Size(117, 32);
             this.txtlivros.TabIndex = 9;

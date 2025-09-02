@@ -21,9 +21,30 @@ namespace AtividadeConf
         {
             Hide();
             FrmBiblioteca biblioteca = new FrmBiblioteca();
-            Show();
+            biblioteca.Show();
             
 
+        }
+
+        private void arquibancadaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Frmaquibancada arquibancada = new Frmaquibancada();
+            arquibancada.Show();
+        }
+
+        private void salárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmsalario salario = new frmsalario();
+            salario.Show();
+        }
+
+        private void lanchesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmlanches lanches = new frmlanches();
+            lanches.Show();
         }
     }
 }

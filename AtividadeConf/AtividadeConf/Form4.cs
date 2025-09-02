@@ -16,11 +16,12 @@ namespace AtividadeConf
         {
             InitializeComponent();
         }
+        double preco;
 
         private void button3_Click(object sender, EventArgs e)
         {
-            double livros, preco;
-            preco = Convert.ToDouble(txtpreco.Text);
+            double livros;
+            
             livros = Convert.ToDouble(txtlivros.Text);
 
             if (livros <= 10)
@@ -33,7 +34,7 @@ namespace AtividadeConf
                 preco = livros * 8;
             }
 
-
+            txtpreco.Text = preco.ToString();
         }
     }
 }

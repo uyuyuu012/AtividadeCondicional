@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AtividadeConf",
+    "\\AtividadeConf\\AtividadeConf"
   ],
+  "SelectedNode": "\\AtividadeConf\\AtividadeConf\\Form2.cs",
   "PreviewInSolutionExplorer": false
 }

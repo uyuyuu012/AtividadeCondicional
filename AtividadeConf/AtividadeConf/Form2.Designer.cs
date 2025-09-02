@@ -68,6 +68,7 @@
             this.arquibancadaToolStripMenuItem.Name = "arquibancadaToolStripMenuItem";
             this.arquibancadaToolStripMenuItem.Size = new System.Drawing.Size(215, 34);
             this.arquibancadaToolStripMenuItem.Text = "Arquibancada";
+            this.arquibancadaToolStripMenuItem.Click += new System.EventHandler(this.arquibancadaToolStripMenuItem_Click);
             // 
             // bibliotecaToolStripMenuItem
             // 
@@ -81,12 +82,14 @@
             this.salárioToolStripMenuItem.Name = "salárioToolStripMenuItem";
             this.salárioToolStripMenuItem.Size = new System.Drawing.Size(215, 34);
             this.salárioToolStripMenuItem.Text = "Salário";
+            this.salárioToolStripMenuItem.Click += new System.EventHandler(this.salárioToolStripMenuItem_Click);
             // 
             // lanchesToolStripMenuItem
             // 
             this.lanchesToolStripMenuItem.Name = "lanchesToolStripMenuItem";
             this.lanchesToolStripMenuItem.Size = new System.Drawing.Size(215, 34);
             this.lanchesToolStripMenuItem.Text = "Lanches";
+            this.lanchesToolStripMenuItem.Click += new System.EventHandler(this.lanchesToolStripMenuItem_Click);
             // 
             // calculoIMCToolStripMenuItem
             // 

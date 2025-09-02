@@ -1,6 +1,6 @@
 ﻿namespace AtividadeConf
 {
-    partial class Form3
+    partial class Frmaquibancada
     {
         /// <summary>
         /// Required designer variable.
@@ -28,81 +28,96 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.lbltotpub = new System.Windows.Forms.Label();
+            this.btnapagar = new System.Windows.Forms.Button();
+            this.bntcalc = new System.Windows.Forms.Button();
+            this.bntvoltar = new System.Windows.Forms.Button();
+            this.txttotpubli = new System.Windows.Forms.TextBox();
+            this.lblrendatot = new System.Windows.Forms.Label();
+            this.txtrendatot = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // lbltotpub
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(40, 90);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.lbltotpub.AutoSize = true;
+            this.lbltotpub.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.25F);
+            this.lbltotpub.Location = new System.Drawing.Point(53, 71);
+            this.lbltotpub.Name = "lbltotpub";
+            this.lbltotpub.Size = new System.Drawing.Size(315, 26);
+            this.lbltotpub.TabIndex = 1;
+            this.lbltotpub.Text = "Digite o total do público do jogo";
             // 
-            // label2
+            // btnapagar
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(77, 168);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Digite";
+            this.btnapagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
+            this.btnapagar.Location = new System.Drawing.Point(73, 353);
+            this.btnapagar.Name = "btnapagar";
+            this.btnapagar.Size = new System.Drawing.Size(152, 50);
+            this.btnapagar.TabIndex = 3;
+            this.btnapagar.Text = "Apagar";
+            this.btnapagar.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // bntcalc
             // 
-            this.textBox1.Location = new System.Drawing.Point(261, 90);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(131, 20);
-            this.textBox1.TabIndex = 2;
+            this.bntcalc.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
+            this.bntcalc.Location = new System.Drawing.Point(335, 353);
+            this.bntcalc.Name = "bntcalc";
+            this.bntcalc.Size = new System.Drawing.Size(152, 50);
+            this.bntcalc.TabIndex = 4;
+            this.bntcalc.Text = "Calculo";
+            this.bntcalc.UseVisualStyleBackColor = true;
+            this.bntcalc.Click += new System.EventHandler(this.bntcalc_Click);
             // 
-            // button1
+            // bntvoltar
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
-            this.button1.Location = new System.Drawing.Point(324, 353);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(152, 50);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Apagar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.bntvoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
+            this.bntvoltar.Location = new System.Drawing.Point(573, 353);
+            this.bntvoltar.Name = "bntvoltar";
+            this.bntvoltar.Size = new System.Drawing.Size(152, 50);
+            this.bntvoltar.TabIndex = 5;
+            this.bntvoltar.Text = "Voltar";
+            this.bntvoltar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // txttotpubli
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
-            this.button2.Location = new System.Drawing.Point(68, 353);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(152, 50);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Calculo";
-            this.button2.UseVisualStyleBackColor = true;
+            this.txttotpubli.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.25F);
+            this.txttotpubli.Location = new System.Drawing.Point(412, 65);
+            this.txttotpubli.Name = "txttotpubli";
+            this.txttotpubli.Size = new System.Drawing.Size(158, 32);
+            this.txttotpubli.TabIndex = 6;
             // 
-            // button3
+            // lblrendatot
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
-            this.button3.Location = new System.Drawing.Point(573, 353);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(152, 50);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Voltar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.lblrendatot.AutoSize = true;
+            this.lblrendatot.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.25F);
+            this.lblrendatot.Location = new System.Drawing.Point(53, 145);
+            this.lblrendatot.Name = "lblrendatot";
+            this.lblrendatot.Size = new System.Drawing.Size(236, 26);
+            this.lblrendatot.TabIndex = 7;
+            this.lblrendatot.Text = "A renda total do jogo é:";
             // 
-            // Form3
+            // txtrendatot
+            // 
+            this.txtrendatot.Enabled = false;
+            this.txtrendatot.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.25F);
+            this.txtrendatot.Location = new System.Drawing.Point(412, 145);
+            this.txtrendatot.Name = "txtrendatot";
+            this.txtrendatot.Size = new System.Drawing.Size(158, 32);
+            this.txtrendatot.TabIndex = 8;
+            // 
+            // Frmaquibancada
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Name = "Form3";
+            this.Controls.Add(this.txtrendatot);
+            this.Controls.Add(this.lblrendatot);
+            this.Controls.Add(this.txttotpubli);
+            this.Controls.Add(this.bntvoltar);
+            this.Controls.Add(this.bntcalc);
+            this.Controls.Add(this.btnapagar);
+            this.Controls.Add(this.lbltotpub);
+            this.Name = "Frmaquibancada";
             this.Text = "Arquibancada";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -110,12 +125,12 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label lbltotpub;
+        private System.Windows.Forms.Button btnapagar;
+        private System.Windows.Forms.Button bntcalc;
+        private System.Windows.Forms.Button bntvoltar;
+        private System.Windows.Forms.TextBox txttotpubli;
+        private System.Windows.Forms.Label lblrendatot;
+        private System.Windows.Forms.TextBox txtrendatot;
     }
 }
